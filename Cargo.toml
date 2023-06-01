@@ -2,6 +2,10 @@
 name = "world-painter"
 version = "0.1.0"
 edition = "2021"
+authors = ["funnyboy_roks <funnyboyroks@gmail.com>"]
+description = "A simple program to print the regions in a Minecraft world"
+license-file = "LICENSE"
+exclude = ["img/"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -14,5 +18,5 @@ image = "0.24.6"
 mca-parser = "0.2.0"
 progress_bar = "1.0.3"
 
-[profile.release]
-debug = true
+#[profile.release]
+#debug = true
