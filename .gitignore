@@ -1,0 +1,5 @@
+/target
+/*.png
+perf.*
+*.svg
+*.jar

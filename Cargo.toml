@@ -1,0 +1,18 @@
+[package]
+name = "world-painter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.71"
+carlog = "0.1.0"
+#clap = { version = "4.3.0", features = ["derive"] }
+color-art = "0.3.1"
+image = "0.24.6"
+mca-parser = "0.2.0"
+progress_bar = "1.0.3"
+
+[profile.release]
+debug = true
